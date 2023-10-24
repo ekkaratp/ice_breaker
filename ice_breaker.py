@@ -20,7 +20,8 @@ def ice_break(name: str) -> PersonIntel:
         1. a short summary
         2. two interesting facts about them
         3. A topic that may interest them
-        4. 2 creative Ice breakers to open a conversation with them\n{format_instructions}
+        4. 2 creative Ice breakers to open a conversation with them
+        \n{format_instructions}
     """
 
     summary_prompt_template = PromptTemplate(
